@@ -22,11 +22,11 @@ const PersonalInfo = () => {
       {personalInfoContent.map((val, i) => (
         <li key={i}>
           <span className="title">{val.meta}: </span>
-          <a href={val.metaLink} target="_blank" className="text-white">
+          <link href={val.metaLink} target="_blank" className="text-white">
             <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">
             {val.metaInfo}            
           </span>
-          </a>
+          </link>
         </li>
       ))}
     </ul>
