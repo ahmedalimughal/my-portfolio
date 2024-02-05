@@ -723,7 +723,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 }
 
 .about .about-list .value {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 /* Box Stats */
@@ -1863,8 +1863,7 @@ body.light .tab-panel_list > div {
   }
 }
 .about-list {
-  display: flex;
-  flex-wrap: wrap;
+  column-count: 2;
   li {
     flex: 0 0 50%;
     max-width: 50%;

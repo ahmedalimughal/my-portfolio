@@ -1,16 +1,19 @@
 import React from "react";
 
 const personalInfoContent = [
-  { meta: "first name", metaInfo: "Steve" },
-  { meta: "last name", metaInfo: "Milner" },
-  { meta: "Age", metaInfo: "27 Years" },
-  { meta: "Nationality", metaInfo: "Tunisian" },
+  { meta: "Full Name", metaInfo: "Ahmed Ali Mughal" },
+  { meta: "Age", metaInfo: "23 Years" },
+  { meta: "Nationality", metaInfo: "Pakistani" },
   { meta: "Freelance", metaInfo: "Available" },
-  { meta: "Address", metaInfo: "Tunis" },
-  { meta: "phone", metaInfo: "+21621184010" },
-  { meta: "Email", metaInfo: "you@mail.com" },
+  { meta: "Address", metaInfo: "Karachi, Pakistan" },
+  
   { meta: "Skype", metaInfo: " steve.milner" },
-  { meta: "langages", metaInfo: "French, English" },
+  { meta: "phone", metaInfo: "+92 3302529311"  , metaLink: "tel:+923302529311"},
+  { meta: "langages", metaInfo: "German, English" },
+  
+  { meta: "Email", metaInfo: "ahmedalimughal.dev@gmail.com" , metaLink: "mailto:ahmedalimughal.dev@gmail.com"},
+  { meta: "Linkedin" , metaInfo:"Ahmed Ali Mughal" , metaLink: "https://www.linkedin.com/in/ahmed-ali-mughal/"}
+  
 ];
 
 const PersonalInfo = () => {
@@ -19,9 +22,11 @@ const PersonalInfo = () => {
       {personalInfoContent.map((val, i) => (
         <li key={i}>
           <span className="title">{val.meta}: </span>
-          <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">
-            {val.metaInfo}
+          <a href={val.metaLink} target="_blank" className="text-white">
+            <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">
+            {val.metaInfo}            
           </span>
+          </a>
         </li>
       ))}
     </ul>
