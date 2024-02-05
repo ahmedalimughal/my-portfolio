@@ -79,7 +79,7 @@ const Education = () => {
         </li>
       ))}
     </ul>
-  );
+  );  
 };
 
 export default Education;

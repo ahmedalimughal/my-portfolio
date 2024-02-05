@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const personalInfoContent = [
   { meta: "Full Name", metaInfo: "Ahmed Ali Mughal" },
@@ -22,11 +23,11 @@ const PersonalInfo = () => {
       {personalInfoContent.map((val, i) => (
         <li key={i}>
           <span className="title">{val.meta}: </span>
-          <link href={val.metaLink} target="_blank" className="text-white">
+          <Link to={val.metaLink} className="text-white">
             <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">
             {val.metaInfo}            
           </span>
-          </link>
+          </Link>
         </li>
       ))}
     </ul>
