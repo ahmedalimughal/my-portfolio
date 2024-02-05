@@ -8,9 +8,9 @@ const personalInfoContent = [
   { meta: "Freelance", metaInfo: "Available" },
   { meta: "Address", metaInfo: "Karachi, Pakistan" },
   
-  { meta: "Skype", metaInfo: " steve.milner" },
+  { meta: "Skype", metaInfo: " ahmedali.mughal" },
   { meta: "phone", metaInfo: "+92 3302529311"  , metaLink: "tel:+923302529311"},
-  { meta: "langages", metaInfo: "German, English" },
+  { meta: "languages", metaInfo: "German, English" },
   
   { meta: "Email", metaInfo: "ahmedalimughal.dev@gmail.com" , metaLink: "mailto:ahmedalimughal.dev@gmail.com"},
   { meta: "Linkedin" , metaInfo:"Ahmed Ali Mughal" , metaLink: "https://www.linkedin.com/in/ahmed-ali-mughal/"}
