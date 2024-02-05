@@ -70,7 +70,7 @@ const Education = () => {
           <hr />
           {val.Credential && <span className="time open-sans-font">{val.Credential}</span>} <br />
           {val.link && <p className="time open-sans-font ">
-            <a className="text-white text-decoration-none" href={val.link} target="_blank" rel="noopener noreferrer">View Certificate &nbsp;
+            <a className="text-white text-decoration-none" href={val.link} target="_blank" >View Certificate &nbsp;
              <i className="fa fa-external-link"></i>
             </a></p> }
            
