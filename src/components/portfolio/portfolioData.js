@@ -2,154 +2,86 @@ import Image1 from "../../assets/img/portfolio/project-1.jpg";
 import Image2 from "../../assets/img/portfolio/project-2.jpg";
 import Image3 from "../../assets/img/portfolio/project-3.jpg";
 import Image4 from "../../assets/img/portfolio/project-4.jpg";
-import Image5 from "../../assets/img/portfolio/project-5.jpg";
-import Image6 from "../../assets/img/portfolio/project-6.jpg";
-import Image7 from "../../assets/img/portfolio/project-7.jpg";
-import Image8 from "../../assets/img/portfolio/project-8.jpg";
-import Image9 from "../../assets/img/portfolio/project-9.jpg";
 
 const PortfolioData = [
   {
     id: 1,
-    type: "mockup project",
+    type: "WordPress",
     image: Image1,
-    tag: ["mockup"],
+    tag: ["Wordpress"],
     delayAnimation: "0",
     modalDetails: [
       {
         project: "Website",
-        client: "Envato",
-        language: "HTML, CSS, Javascript",
-        preview: "www.envato.com",
-        link: "https://www.envato.com/",
+        client: "Maqana",
+        language: "WordPress, Sailent Theme",
+        preview: "Maqana",
+        link: "http://www.maqana.com/",
       },
     ],
   },
+
   {
     id: 2,
-    type: "youtube project",
+    type: "Core php Website",
     image: Image2,
-    tag: ["video"],
+    tag: ["Core PHP"],
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "video",
-        client: "Videohive",
-        language: " Adobe After Effects",
-        preview: "www.videohive.net",
-        link: "https://www.videohive.net",
+        project: "Employment Tank",
+        client: "Freelance",
+        language: "PHP (8.1.18) , Bootstrap 5 , jQuery (3.4.1) , Google Font API, JavaScript libraries",
+        preview: "Employment Tank",
+        link: "https://www.employmenttank.com/",
       },
     ],
   },
   {
     id: 3,
-    type: "slider project",
+    type: "WordPress Plugin",
     image: Image3,
-    tag: [],
+    tag: ["WP Plugins"],
     delayAnimation: "200",
     modalDetails: [
       {
-        project: "Website",
-        client: "Themeforest",
-        language: " HTML, CSS, Javascript",
-        preview: "www.envato.com",
-        link: "https://www.envato.com",
+        project: "WordPress address plugin",
+        client: "Freelancing",
+        language: " PHP, HTML, CSS, Javascript, WP hooks, WP Funcation",
+        preview: "View Plugin",
+        link: "https://github.com/ahmedalimughal/WordPress-Address-Plugin",
       },
     ],
   },
   {
     id: 4,
-    type: "local project",
+    type: "Wix eCommerce",
     image: Image4,
-    tag: ["logo", "video"],
+    tag: ["CMS Development"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "video",
-        client: "Videohive",
-        language: " Adobe After Effects",
-        preview: "www.videohive.net",
-        link: "https://www.videohive.net",
+        project: "Wix eCommerce",
+        client: "IAMEVE",
+        language: "React (16.14.0), core-js (2.6.12), GSAP, Polyfill 3, Lodash (4.17.21)",
+        preview: "iameveami",
+        link: "https://www.iameveami.com/",
       },
     ],
   },
   {
     id: 5,
-    type: "saas project",
-    image: Image5,
-    tag: ["logo"],
-    delayAnimation: "100",
-    modalDetails: [
-      {
-        project: "Web Application",
-        client: "Themeforest",
-        language: "HTML, CSS, ReactJS",
-        preview: "www.envato.com",
-        link: "https://themeforest.net/item/deski-saas-software-react-template/33799794",
-      },
-    ],
-  },
-  {
-    id: 6,
-    type: "mockup project",
-    image: Image6,
-    tag: ["logo", "mockup"],
-    delayAnimation: "200",
-    modalDetails: [
-      {
-        project: "Website",
-        client: "Themeforest",
-        language: "HTML, CSS, Javascript",
-        preview: "www.pexels.com",
-        link: "https://www.pexels.com",
-      },
-    ],
-  },
-  {
-    id: 7,
-    type: "facebook project",
-    image: Image7,
-    tag: ["logo"],
+    type: "WordPress eCommerce",
+    image: Image1,
+    tag: ["Wordpress"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Website",
-        client: "Facebook",
-        language: "HTML, CSS, Javascript",
-        preview: "www.facebook.com",
-        link: "https://www.facebook.com/ibthemes",
-      },
-    ],
-  },
-  {
-    id: 8,
-    type: "dribble project",
-    image: Image8,
-    tag: ["graphic design"],
-    delayAnimation: "100",
-    modalDetails: [
-      {
-        project: "Website",
-        client: "Dribbble",
-        language: "HTML, CSS, Javascript",
-        preview: "www.dribbble.com",
-        link: "https://dribbble.com/ib-themes",
-      },
-    ],
-  },
-  {
-    id: 9,
-    type: "behence project",
-    image: Image9,
-    tag: ["graphic design", "mockup"],
-    delayAnimation: "200",
-    modalDetails: [
-      {
-        project: "Website",
-        client: "Behance",
-        language: "HTML, CSS, Javascript",
-        preview: "www.behance.com",
-        link: "https://www.behance.net/ib-themes",
+        project: "Phoenix Boost",
+        client: "Phoenix Boost",
+        language: "WordPress, Sailent Theme, jQuery Slider, Custom CSS ",
+        preview: "Phoenix Boost",
+        link: "https://devu12.onlinetestingserver.com/batesok/",
       },
     ],
   },

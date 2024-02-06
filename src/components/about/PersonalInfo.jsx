@@ -2,18 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const personalInfoContent = [
-  { meta: "Full Name", metaInfo: "Ahmed Ali Mughal" },
-  { meta: "Age", metaInfo: "23 Years" },
-  { meta: "Nationality", metaInfo: "Pakistani" },
-  { meta: "Freelance", metaInfo: "Available" },
-  { meta: "Address", metaInfo: "Karachi, Pakistan" },
+  { meta: "fa fa-user", metaInfo: "Ahmed Ali Mughal" },
+  { meta: "fa fa-child", metaInfo: "23 Years" },
+  { meta: "fa fa-flag", metaInfo: "Pakistani" },
+  { meta: "fa fa-tasks", metaInfo: "Available" },
+  { meta: "fa fa-map-marker", metaInfo: "Karachi, Pakistan" },
   
-  { meta: "Skype", metaInfo: " ahmedali.mughal" },
-  { meta: "phone", metaInfo: "+92 3302529311"  , metaLink: "tel:+923302529311"},
-  { meta: "languages", metaInfo: "German, English" },
+  { meta: "fa fa-skype", metaInfo: " ahmedali.mughal" },
+  { meta: "fa fa-phone", metaInfo: "+92 3302529311"  , metaLink: "tel:+923302529311"},
+  { meta: "fa fa-language", metaInfo: "German, English" },
   
-  { meta: "Email", metaInfo: "ahmedalimughal.dev@gmail.com" , metaLink: "mailto:ahmedalimughal.dev@gmail.com"},
-  { meta: "Linkedin" , metaInfo:"Ahmed Ali Mughal" , metaLink: "https://www.linkedin.com/in/ahmed-ali-mughal/"}
+  { meta: "fa fa-envelope", metaInfo: "ahmedalimughal.dev@gmail.com" , metaLink: "mailto:ahmedalimughal.dev@gmail.com"},
+  { meta: "fa fa-linkedin" , metaInfo:"Ahmed Ali Mughal" , metaLink: "https://www.linkedin.com/in/ahmed-ali-mughal/"}
   
 ];
 
@@ -22,8 +22,8 @@ const PersonalInfo = () => {
     <ul className="about-list list-unstyled open-sans-font">
       {personalInfoContent.map((val, i) => (
         <li key={i}>
-          <span className="title">{val.meta}: </span>
-          <Link to={val.metaLink} className="text-white">
+          <span className="title px-1 icon"><i className={val.meta}></i></span>
+          <Link to={val.metaLink} className="text-decoration-none text-white">
             <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">
             {val.metaInfo}            
           </span>

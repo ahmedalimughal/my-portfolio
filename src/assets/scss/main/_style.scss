@@ -139,6 +139,12 @@ body.light .preloader {
   background-color: #fff;
 }
 
+body.light a {
+  color: #666 !important;
+}
+body.dark a {
+  color: white !important;
+}
 body.light .title-section h1 {
   color: #666;
 }
@@ -1863,11 +1869,21 @@ body.light .tab-panel_list > div {
   }
 }
 .about-list {
-  column-count: 2;
+  display: flex;
+  flex-wrap: wrap;
   li {
     flex: 0 0 50%;
     max-width: 50%;
   }
+  span.title.px-1.icon {
+    background: #fdb32a;
+    font-size: 18px;
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0px 5px;
+}
 }
 
 body::-webkit-scrollbar {
@@ -2089,3 +2105,4 @@ button:focus {
     text-decoration: none;
   }
 }
+

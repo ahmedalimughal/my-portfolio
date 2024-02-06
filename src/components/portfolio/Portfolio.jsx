@@ -21,7 +21,7 @@ const Portfolio = () => {
             <Tab>WordPress</Tab>
             <Tab>WP Plugins</Tab>
             <Tab>Core PHP</Tab>
-            <Tab>Frontend</Tab>
+            <Tab>CMS Development</Tab>
           </TabList>
 
           <div className="container">
@@ -53,7 +53,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("logo")).map(
+                {PortfolioData.filter((item) => item.tag.includes("Wordpress")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (
@@ -81,7 +81,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("video")).map(
+                {PortfolioData.filter((item) => item.tag.includes("WP Plugins")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (
@@ -110,7 +110,7 @@ const Portfolio = () => {
             <TabPanel>
               <div className="tab-container">
                 {PortfolioData.filter((item) =>
-                  item.tag.includes("graphic design")
+                  item.tag.includes("Core PHP")
                 ).map((item) => {
                   const { id, type, image, delayAnimation } = item;
                   return (
@@ -138,7 +138,7 @@ const Portfolio = () => {
             <TabPanel>
               <div className="tab-container">
                 {PortfolioData.filter((item) =>
-                  item.tag.includes("mockup")
+                  item.tag.includes("CMS Development")
                 ).map((item) => {
                   const { id, type, image, delayAnimation } = item;
                   return (

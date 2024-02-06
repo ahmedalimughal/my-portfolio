@@ -40,7 +40,9 @@ const index = () => {
               <div className="col-12 mt-1">
                 <a className="button" href={cv} download>
                   <span className="button-text">Download CV</span>
-                  <span className="button-icon fa fa-download"></span>
+                  <span className="button-icon c">
+                    <i className="fa fa-download"></i>
+                  </span>
                 </a>
               </div>
               {/* End download button */}
