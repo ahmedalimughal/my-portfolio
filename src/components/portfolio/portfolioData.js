@@ -2,6 +2,7 @@ import Image1 from "../../assets/img/portfolio/project-1.jpg";
 import Image2 from "../../assets/img/portfolio/project-2.jpg";
 import Image3 from "../../assets/img/portfolio/project-3.jpg";
 import Image4 from "../../assets/img/portfolio/project-4.jpg";
+import Image5 from "../../assets/img/portfolio/project-5.jpg";
 
 const PortfolioData = [
   {
@@ -72,7 +73,7 @@ const PortfolioData = [
   {
     id: 5,
     type: "WordPress eCommerce",
-    image: Image1,
+    image: Image5,
     tag: ["Wordpress"],
     delayAnimation: "0",
     modalDetails: [
