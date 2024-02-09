@@ -8,7 +8,7 @@ const personalInfoContent = [
   { meta: "fa fa-tasks", metaInfo: "Available" },
   { meta: "fa fa-map-marker", metaInfo: "Karachi, Pakistan" },
   
-  { meta: "fa fa-skype", metaInfo: " ahmedali.mughal" },
+  { meta: "fa fa-skype", metaInfo: " ahmedali.mughal" , metaLink:"https://join.skype.com/invite/vgtgA8pCBqPa"},
   { meta: "fa fa-phone", metaInfo: "+92 3302529311"  , metaLink: "tel:+923302529311"},
   { meta: "fa fa-language", metaInfo: "German, English" },
   
