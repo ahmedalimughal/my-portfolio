@@ -696,6 +696,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 .home .home-details h1 span {
   color: #fff;
   display: block;
+  font-size: xx-large;
 }
 
 .home .home-details h6 {
@@ -1696,10 +1697,15 @@ body.light .contact .custom-span-contact a {
     padding-right: 15px;
   }
   .home .home-details h1 {
-    font-size: 29px;
+    font-size: 22px;
     line-height: 39px;
     margin: 18px 0 13px;
   }
+  .home .home-details h1 span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+}
 
   .home .home-details h6 {
     font-size: 19px;
