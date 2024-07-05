@@ -9,8 +9,8 @@ const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "Ahmed Ali Mughal",
-  heroDesignation: "Software Engineer",
-  heroDescriptions: `I am a Senior Web Developer, a leading digital agency that specializes in creating dynamic and engaging online experiences. With a passion for web development and a Bachelor of Science in BSCS, I leverage my expertise in WordPress, PHP, and Bubble.io to deliver cutting-edge solutions that meet client objectives and drive results.`,
+  heroDesignation: "Full-Stack Developer",
+  heroDescriptions: `I am a Full-Stack Developer, a leading digital agency that specializes in creating dynamic and engaging online experiences. With a passion for web development and a Bachelor of Science in BSCS, I leverage my expertise in WordPress, PHP, and Bubble.io to deliver cutting-edge solutions that meet client objectives and drive results.`,
   heroBtn: "more about me",
 };
 

@@ -2,7 +2,13 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "Jun 2023 - Present",
+    year: "Jun 2024 - Present",
+    position: "Senior Web Developer",
+    compnayName: "Ossols Pvt Ltd · Full-time",
+    details: `On the position of Senior Web Developer at Ossols Pvt Ltd, a full-time role. In this position, I specializes in various CMS platforms including WordPress, Shopify, Wix, and Squarespace, as well as in plugin development.`,
+  },
+  {
+    year: "Jun 2023 - July 2024",
     position: "Senior Web Developer",
     compnayName: "HBOX Digital · Full-time",
     details: `As a seasoned Web Developer, I specialize in harnessing the power of WordPress, PHP Custom Portals, and Bubble.io technology to create dynamic and engaging online experiences.`,
