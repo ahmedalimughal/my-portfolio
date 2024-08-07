@@ -1,4 +1,4 @@
-# Tunis Personal Portfolio React Template
+# Ahmed Ali Mughal Portfolio Website
 
 ## Description
 
@@ -27,4 +27,3 @@ npm run build
 ```
 npm run lint
 ```
-# my-portfolio
