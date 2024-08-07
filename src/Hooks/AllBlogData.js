@@ -29,10 +29,10 @@ const AllBlogData = () => {
     {
       id: 2,
       img: img2,
-      title: "Top 10 Toolkits for Deep Learning in 2022",
-      commentor: "Santhan ",
-      date: "14 January 2022",
-      tag: `wordpress, business, economy, design`,
+      title: "How to create the Plugin for WordPress.",
+      commentor: "Ahmed Ali Mughal ",
+      date: "05 August 2024",
+      tag: `wordpress, plugin, php, hooks`,
       description1:
         "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       description2:
