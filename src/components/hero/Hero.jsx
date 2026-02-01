@@ -9,7 +9,7 @@ const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "Ahmed Ali Mughal",
-  heroDesignation: "Building Scalable Web Solutions That Perform",
+  heroDesignation: "Performance-Driven Web Development Expert",
   heroDescriptions: `Senior Full Stack Developer and Central Team Head with hands-on experience in leading in-house development, designing robust system architectures, and delivering high-performance web applications. I focus on writing clean, maintainable code and building digital products that scale with business growth.`,
   heroBtn: "more about me",
 };
