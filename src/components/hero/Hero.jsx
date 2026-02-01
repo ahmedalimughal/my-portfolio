@@ -9,8 +9,8 @@ const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "Ahmed Ali Mughal",
-  heroDesignation: "Full-Stack Developer",
-  heroDescriptions: `I am a Full-Stack Developer, a leading digital agency that specializes in creating dynamic and engaging online experiences. With a passion for web development and a Bachelor of Science in BSCS, I leverage my expertise in WordPress, PHP, and Bubble.io to deliver cutting-edge solutions that meet client objectives and drive results.`,
+  heroDesignation: "Building Scalable Web Solutions That Perform",
+  heroDescriptions: `Senior Full Stack Developer and Central Team Head with hands-on experience in leading in-house development, designing robust system architectures, and delivering high-performance web applications. I focus on writing clean, maintainable code and building digital products that scale with business growth.`,
   heroBtn: "more about me",
 };
 

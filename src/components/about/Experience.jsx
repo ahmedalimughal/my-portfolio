@@ -2,7 +2,13 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "July 2024 - Present",
+    year: "Oct 2025 - Present",
+    position: "Head of Central Team & Senior Full Stack Developer",
+    compnayName: "HBOX Global · Full-time",
+    details: `I’m a Senior Full Stack Developer and Central Team Head at HBOX Global, specializing in building scalable, high-performance web applications using modern technologies. I take full ownership of in-house projects, leading everything from system architecture and backend development to crafting responsive, user-focused front-end interfaces.`,
+  },
+  {
+    year: "July 2024 - Oct 2025",
     position: "Senior Web Developer",
     compnayName: "Ossols Pvt Ltd · Full-time",
     details: `On the position of Senior Web Developer at Ossols Pvt Ltd, a full-time role. In this position, I specializes in various CMS platforms including WordPress, Shopify, Wix, and Squarespace, as well as in plugin development.`,
