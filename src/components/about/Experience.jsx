@@ -3,7 +3,7 @@ import React from "react";
 const experienceContent = [
   {
     year: "Oct 2025 - Present",
-    position: "Head of Central Team & Senior Full Stack Developer",
+    position: "Senior Central Development Manager",
     compnayName: "HBOX Global · Full-time",
     details: `I’m a Senior Full Stack Developer and Central Team Head at HBOX Global, specializing in building scalable, high-performance web applications using modern technologies. I take full ownership of in-house projects, leading everything from system architecture and backend development to crafting responsive, user-focused front-end interfaces.`,
   },
