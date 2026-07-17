@@ -50,7 +50,6 @@ const experienceContent = [
     details: `Started my professional career as a WordPress Developer, building responsive websites, customizing themes, integrating plugins, and maintaining client projects while gaining strong experience in HTML, CSS, JavaScript, PHP, and WordPress development.`,
   },
 ];
-];
 
 const Experience = () => {
   return (
