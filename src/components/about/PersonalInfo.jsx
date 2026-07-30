@@ -12,7 +12,9 @@ const personalInfoContent = [
   { meta: "fa fa-language", metaInfo: "German, English" },
   
   { meta: "fa fa-envelope", metaInfo: "ahmedali110@gmail.com" , metaLink: "mailto:ahmedali110@gmail.com"},
-  { meta: "fa fa-linkedin" , metaInfo:"Ahmed Ali Mughal" , metaLink: "https://www.linkedin.com/in/ahmed-ali-mughal/"}
+  { meta: "fa fa-linkedin" , metaInfo:"Ahmed Ali Mughal", metaLink: "https://www.linkedin.com/in/ahmed-ali-mughal/"},
+
+  { meta: "fa fa-heart-o", metaInfo:"@ahmedalimughal", metaLink: "https://lovable.dev/@ahmedalimughal"}
   
 ];
 
