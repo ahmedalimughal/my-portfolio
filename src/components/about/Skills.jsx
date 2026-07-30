@@ -1,23 +1,51 @@
 import React from "react";
 
 const skillsContent = [
-  { skillClass: "p99", skillPercent: "100", skillName: "HTML" },
-  { skillClass: "p91", skillPercent: "95", skillName: "CSS" },
-  { skillClass: "p90", skillPercent: "99", skillName: "Bootstrap" },
+  { skillClass: "p99", skillPercent: "100", skillName: "HTML5" },
+  { skillClass: "p95", skillPercent: "95", skillName: "CSS3" },
+  { skillClass: "p90", skillPercent: "90", skillName: "Tailwind CSS" },
+  { skillClass: "p90", skillPercent: "90", skillName: "Bootstrap" },
   { skillClass: "p89", skillPercent: "89", skillName: "JavaScript" },
-  { skillClass: "p75", skillPercent: "75", skillName: "jQuery" },
-  { skillClass: "p80", skillPercent: "80", skillName: "PHP" },
-  { skillClass: "p85", skillPercent: "85", skillName: "Laravel" },
-  { skillClass: "p90", skillPercent: "90", skillName: "RESTful APIs" },
+  { skillClass: "p85", skillPercent: "85", skillName: "TypeScript" },
+  { skillClass: "p85", skillPercent: "85", skillName: "React.js" },
+  { skillClass: "p80", skillPercent: "80", skillName: "Next.js" },
+
+  { skillClass: "p80", skillPercent: "80", skillName: "jQuery" },
+  { skillClass: "p90", skillPercent: "90", skillName: "PHP" },
+  { skillClass: "p90", skillPercent: "90", skillName: "Laravel" },
+  { skillClass: "p90", skillPercent: "90", skillName: "REST APIs" },
   { skillClass: "p85", skillPercent: "85", skillName: "API Integration" },
-  { skillClass: "p95", skillPercent: "95", skillName: "WordPress" },
-  { skillClass: "p80", skillPercent: "80", skillName: "WP Plugin Development" },
+
   { skillClass: "p85", skillPercent: "85", skillName: "MySQL" },
-  { skillClass: "p75", skillPercent: "75", skillName: "Database Design" },
-  { skillClass: "p80", skillPercent: "80", skillName: "Git / Version Control" },
-  { skillClass: "p75", skillPercent: "75", skillName: "Server Deployment" },
+  { skillClass: "p80", skillPercent: "80", skillName: "Database Design" },
+  { skillClass: "p75", skillPercent: "75", skillName: "Redis" },
+
+  { skillClass: "p90", skillPercent: "90", skillName: "WordPress" },
+  { skillClass: "p85", skillPercent: "85", skillName: "WP Plugin Development" },
+  { skillClass: "p80", skillPercent: "80", skillName: "WooCommerce" },
+
+  { skillClass: "p85", skillPercent: "85", skillName: "Git / GitHub" },
+  { skillClass: "p80", skillPercent: "80", skillName: "CI/CD" },
+  { skillClass: "p75", skillPercent: "75", skillName: "Docker" },
+
+  { skillClass: "p85", skillPercent: "85", skillName: "Cloud Architecture" },
+  { skillClass: "p80", skillPercent: "80", skillName: "AWS" },
+  { skillClass: "p80", skillPercent: "80", skillName: "Server Deployment" },
+
   { skillClass: "p85", skillPercent: "85", skillName: "System Architecture" },
-  { skillClass: "p80", skillPercent: "80", skillName: "Project Leadership" }
+  { skillClass: "p85", skillPercent: "85", skillName: "Software Engineering" },
+  { skillClass: "p90", skillPercent: "90", skillName: "SaaS Development" },
+
+  { skillClass: "p85", skillPercent: "85", skillName: "ERP Systems" },
+  { skillClass: "p85", skillPercent: "85", skillName: "HRMS Solutions" },
+  { skillClass: "p80", skillPercent: "80", skillName: "POS Systems" },
+  { skillClass: "p80", skillPercent: "80", skillName: "Payment Solutions" },
+  { skillClass: "p75", skillPercent: "75", skillName: "Fleet Management" },
+
+  { skillClass: "p90", skillPercent: "90", skillName: "Project Leadership" },
+  { skillClass: "p85", skillPercent: "85", skillName: "Product Management" },
+  { skillClass: "p85", skillPercent: "85", skillName: "Team Leadership" },
+  { skillClass: "p80", skillPercent: "80", skillName: "Agile Methodology" }
 ];
 
 const Skills = () => {
